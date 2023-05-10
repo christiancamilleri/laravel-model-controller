@@ -12,7 +12,7 @@ class PageController extends Controller
     {
         $movies = Movie::all();
 
-        dd($movies);
+
 
 
         return view('home', compact('movies'));

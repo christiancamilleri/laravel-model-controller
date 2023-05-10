@@ -17,8 +17,7 @@
 
 <body>
 
-    
-prov
+    @yield('content')
 </body>
 
 </html>
